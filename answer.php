@@ -48,20 +48,11 @@
       <div class="page-content">The dimensions of a rectangle are: 5 cm and 3 cm.</div>
       <br />
       <div id="multiply-math">
-        <p>The area is:</p>
+        <?php echo '<p>The area is:' . (5 * 3) . 'cm² </p>'; ?>
       </div>
       <div id="add-math">
-        <p>The perimeter is:</p>
+        <?php echo '<p>The perimeter is:' . (2 * (5 + 3)) . 'cm </p>'; ?>
       </div>
-      <!-- Simple Textfield for integers-->
-      <form action="answer.php" method="GET">
-        <!-- Accent-colored raised button with ripple -->
-        <button
-          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          type="submit">
-          Calculate
-        </button>
-      </form>
       <br />
     </main>
   </div>

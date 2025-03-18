@@ -43,7 +43,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/the-creature.png" alt="the creature" />
+        <img src="./images/area_and_perimeter.png" alt="area and perimeter" />
       </div>
       <div class="page-content">The dimensions of a rectangle are: 5 cm and 3 cm.</div>
       <br />

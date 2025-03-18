@@ -43,17 +43,20 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/the-creature.png" alt="the creature" />
+        <img src="./images/area_and_perimeter.png" alt="area and perimeter" />
       </div>
       <div class="page-content">The dimensions of a rectangle are: 5 cm and 3 cm.</div>
       <br />
       <div id="multiply-math">
-        <?php echo '<p>The area is:' . (5 * 3) . 'cm² </p>'; ?>
+        <?php echo '<p>The area is: ' . (5 * 3) . 'cm² </p>'; ?>
       </div>
       <div id="add-math">
-        <?php echo '<p>The perimeter is:' . (2 * (5 + 3)) . 'cm </p>'; ?>
+        <?php echo '<p>The perimeter is: ' . (2 * (5 + 3)) . 'cm </p>'; ?>
       </div>
       <br />
+      <div class="page-content">
+        <a href="./index.php">Return ...</a>
+      </div>
     </main>
   </div>
 </body>

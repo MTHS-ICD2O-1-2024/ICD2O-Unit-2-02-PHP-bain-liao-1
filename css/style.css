@@ -1,11 +1,11 @@
 /* Created by: Bain Liao
-* Created on: Feb 2025
+* Created on: Mar 2025
 * This file contains the CSS for index.html
 */
 
 .mdl-layout__header-row {
   justify-content: left;
-  padding: 0;
+  padding: 1;
 }
 
 .mdl-layout__content {
